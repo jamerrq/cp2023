@@ -131,4 +131,5 @@ dmypy.json
 # cp files
 *makra.py
 *in
+*out
 *out[0-9]?
