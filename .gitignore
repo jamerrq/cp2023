@@ -132,4 +132,4 @@ dmypy.json
 *makra.py
 *in
 *out
-*out[0-9]?
+*out[0-9]
