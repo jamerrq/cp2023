@@ -130,6 +130,6 @@ dmypy.json
 
 # cp files
 *makra.py
-*in
-*out
-*out[0-9]
+in
+out[0-9]?
+Unsolved/
