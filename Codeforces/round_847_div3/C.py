@@ -9,8 +9,8 @@ def read_array(func=int):
     return list(map(func, read(str).split()))
 
 
+# helped by the tutorial [https://codeforces.com/blog/entry/111948]
 t = read()
-
 for _ in range(t):
 
     n = read()
