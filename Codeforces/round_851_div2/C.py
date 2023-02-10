@@ -9,10 +9,6 @@ def read_array(func=int):
     return list(map(func, read(str).split()))
 
 
-def sum_digits(n):
-    return sum([int(x) for x in str(n)])
-
-
 t = read()
 for _ in range(t):
     n = read()
