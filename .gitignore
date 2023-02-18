@@ -133,3 +133,4 @@ dmypy.json
 in
 out[0-9]?
 Unsolved/
+.vscode/
