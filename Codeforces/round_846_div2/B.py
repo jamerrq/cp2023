@@ -44,3 +44,15 @@ def lcm(a, b):
 
 
 
+t = read()
+for _ in range(t):
+    n = read()
+    A = read_array()
+    s = sum(A)
+    p = 0
+    a = 0
+    for i in range(n - 1):
+        p += A[i]
+        a = max(a, gcd(p, s - p))
+
+    print(a)
