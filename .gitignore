@@ -131,6 +131,7 @@ dmypy.json
 # cp files
 *makra.py
 in
-out[0-9]?
+out
+out[0-9]
 Unsolved/
 .vscode/
