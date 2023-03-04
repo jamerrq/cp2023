@@ -49,11 +49,17 @@ for _ in range(t):
     n = read()
     s = read(str)
     m, e, o, w = [False] * 4
-    st = 0
+    st = -1
     ans = True
     for i in range(n):
         ci = s[i].lower()
-        if st == 0:
+        if st == -1:
+            if ci == 'm':
+                st += 1
+            else:
+                ans = False
+                break
+        elif st == 0:
             if ci == 'e':
                 st += 1
             else:
