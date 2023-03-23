@@ -48,6 +48,7 @@ t = read()
 for _ in range(t):
     n = read()
     A = read_array()
+    #
     ev, od = [], []
     for num in A:
         if num % 2:
@@ -55,6 +56,7 @@ for _ in range(t):
         else:
             ev.append(num)
 
+    #
     if sum(ev) > sum(od):
         print('YES')
     else:

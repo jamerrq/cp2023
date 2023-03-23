@@ -54,7 +54,6 @@ for _ in range(t):
     for i in range(n):
         char = s[i]
         if m.get(char) is not None:
-            # print(i, m[char], char)
             if (i - m[char]) % 2 != 0:
                 a = 'NO'
                 break

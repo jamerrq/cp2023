@@ -2,4 +2,4 @@
 
 [Announcement](https://codeforces.com/blog/entry/114062)
 
-[Tutorial]()
+[Tutorial](https://codeforces.com/blog/entry/114143)

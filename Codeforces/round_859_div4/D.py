@@ -57,7 +57,6 @@ for _ in range(t):
     for _ in range(q):
         l, r, k = read_array()
         new_sum = S - (K[r] - K[l - 1]) + k * (r - l + 1)
-        # print('NEW SUM:', new_sum)
         if new_sum % 2:
             print('YES')
         else:

@@ -80,7 +80,6 @@ for _ in range(t):
 
 
     if i != j:
-        qs += 1
         x = make_query(i, i, B)
         if x:
             print(f'! {i + 1}')
@@ -91,4 +90,3 @@ for _ in range(t):
     else:
         print(f'! {i + 1}')
         sys.stdout.flush()
-
