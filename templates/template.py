@@ -10,7 +10,18 @@ def read_array(func=int):
 
 
 def binary_search(arr, x):
-    #
+    """
+    return the latest position in arr such that the element at this index
+    is lower or equal to the x value
+    if no such element exists, it returns -1
+
+    Args:
+        arr (list): sorted list to search on
+        x (int): value to compare the elements
+
+    Returns:
+        int: index of latest element lower or equal to x
+    """
     i, j = 0, len(arr) - 1
     ans = -1
     #
@@ -31,7 +42,15 @@ def binary_search(arr, x):
 
 def gcd(a, b):
     """
+    Greatest common divisor algorithm
     https://cp-algorithms.com/algebra/euclid-algorithm.html
+
+    Args:
+        a (int): number 1
+        b (int): number 2
+
+    Returns:
+        int: gcd of a and b
     """
     if not b:
         return a
@@ -40,6 +59,16 @@ def gcd(a, b):
 
 
 def lcm(a, b):
+    """
+    Least common multiple
+
+    Args:
+        a (int): number 1
+        b (int): number 2
+
+    Returns:
+        int: lcm of a and b
+    """
     return a / gcd(a, b) * b
 
 
