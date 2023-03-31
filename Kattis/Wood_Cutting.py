@@ -3,10 +3,10 @@ import sys
 
 """
 --
-    Problem name:
-    Link:
+    Problem name: Wood Cutting
+    Link: https://open.kattis.com/problems/woodcutting
     Site: Kattis
-    Status:
+    Status: Accepted
 --
 """
 
@@ -83,3 +83,28 @@ def lcm(a, b):
 
 
 
+t = read()
+for _ in range(t):
+    n = read()
+    #
+    ts = [0] * n
+    for j in range(n):
+
+        W = read_array()
+        np = W[0]
+        tl = sum(W[1:])
+        ts[j] = (tl, j)
+
+    ts.sort()
+    tt = [0] * n
+    ans = 0
+    A = [0] * (n + 1)
+
+    for i in range(n):
+        A[i + 1] = ts[i][0] + A[i]
+
+    for j in range(n):
+        tt[j] = A[j + 1]
+        ans += tt[j]
+
+    print(ans / n)
