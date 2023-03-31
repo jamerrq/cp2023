@@ -1,5 +1,5 @@
-[](https://codeforces.com/contest/)
+[Codeforces Round {n} (Div. {a})](https://codeforces.com/contest/)
 
-[Announcement]()
+[Announcement](https://codeforces.com/blog/entry/)
 
-[Tutorial]()
+[Tutorial](https://codeforces.com/blog/entry/)
