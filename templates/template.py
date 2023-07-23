@@ -13,10 +13,28 @@ import sys
 
 
 def read(func=int):
+    """read from stdint and apply func to it
+
+    Args:
+        func (function, optional): function to apply to the input.
+        Defaults to int.
+
+    Returns:
+        element: element read from stdin
+    """
     return func(sys.stdin.readline().strip())
 
 
 def read_array(func=int):
+    """read a list of elements from stdin
+
+    Args:
+        func (function, optional): function to apply to the input.
+        Defaults to int.
+
+    Returns:
+        list: list of elements read from stdin
+    """
     return list(map(func, read(str).split()))
 
 

@@ -1,4 +1,6 @@
-[Codeforces Round {n} (Div. {a})](https://codeforces.com/contest/)
+# Codeforces Round {n} (Div. {a})
+
+[Problems](https://codeforces.com/contest/)
 
 [Announcement](https://codeforces.com/blog/entry/)
 
