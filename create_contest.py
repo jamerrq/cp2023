@@ -1,14 +1,17 @@
 import os
 
 
-nps = 3 # change
-contest_ = "round_853_div2" # change
-platform = "Codeforces" # Change (maybe)
+nps = 6  # change
+contest_ = "round_886"  # change
+platform = "Codeforces"  # Change (maybe)
+subfolder = "/div4"  # change
+# problems with repeated names such as A1, A2 or B1, B2, etc. (change)
+repeated = ""
 
 ###
-global_p = f"{platform}/{contest_}"
+global_p = f"{platform}{subfolder}/{contest_}"
 
-os.system(f'mkdir {platform}/{contest_}')
+os.system(f'mkdir {platform}{subfolder}/{contest_}')
 
 abc = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 tmp = "./templates/template.py"
